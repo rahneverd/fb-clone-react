@@ -1,3 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
 .headerLeft > img {
     height: 40px;
 }
