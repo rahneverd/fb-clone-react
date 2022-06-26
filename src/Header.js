@@ -21,12 +21,12 @@ function Header() {
             <img src='https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg' alt='fb-clone-react' />
             <div className='headerInput'>
                 <SearchIcon />
-                <input type='text' />
+                <input placeholder='Search facebook' type='text' />
             </div>
         </div>
 
         <div className='headerMiddle'>
-            <div className='headerOption'>
+            <div className='headerOption headerOptionActive'>
                 <HomeIcon fontSize='large' />
             </div>
             <div className='headerOption'>
